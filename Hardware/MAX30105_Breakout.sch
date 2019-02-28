@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5930,10 +5930,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="33.02" y="132.08" size="2.54" layer="97" font="vector">Voltage Regulation</text>
 <text x="142.24" y="55.88" size="2.54" layer="97" font="vector">Interface and Logic Conversion</text>
 <text x="40.64" y="55.88" size="2.54" layer="97" font="vector">Sensor</text>
-<text x="1.016" y="157.226" size="1.778" layer="97" font="vector">5V Required
+<text x="1.016" y="157.226" size="1.778" layer="97" font="vector">3.3V Required
 for LED Driver</text>
-<text x="203.2" y="83.82" size="1.778" layer="97" font="vector">Clear Jumper to remove 
-pull-up from INT</text>
 <text x="58.42" y="116.84" size="1.778" layer="97" font="vector">Logic is 1.8V
 5V for LED Driver</text>
 <text x="48.514" y="137.668" size="1.27" layer="97" font="vector">NC connected to GND
@@ -6032,8 +6030,8 @@ for thermal performance</text>
 <attribute name="NAME" x="194.5386" y="72.39" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="189.738" y="72.39" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="193.04" y="96.52" smashed="yes">
-<attribute name="VALUE" x="193.04" y="99.314" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY5" gate="G$1" x="193.04" y="83.82" smashed="yes">
+<attribute name="VALUE" x="193.04" y="86.614" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="66.04" y="109.22" smashed="yes">
 <attribute name="VALUE" x="66.04" y="112.014" size="1.778" layer="96" align="bottom-center"/>
@@ -6302,7 +6300,7 @@ for thermal performance</text>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<wire x1="193.04" y1="96.52" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="83.82" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
