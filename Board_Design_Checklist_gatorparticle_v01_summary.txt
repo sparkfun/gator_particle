@@ -1,0 +1,6 @@
+1) Do all VCC connections use the VCC symbol (oriented upward)? [YES]
+comment: 3.3/1.8
+
+2) Is the I2C pull-up resistor isolation jumper present? [NO]
+comment: JUMPER PRIVILEGES REMOVED
+
