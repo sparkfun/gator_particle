@@ -5,16 +5,11 @@ SparkFun gator:particle - micro:bit Accessory Board
 
 [*SparkFun gator:particle - micro:bit Accessory Board (SEN-15271)*](https://www.sparkfun.com/products/15271)
 
-(Modify Description)
-A breakout board for the MAX30105 Particle Sensor. This sensor uses three LEDs (Red, Green, IR) to shine different wavelengths of light at any particle in front of the photo detector. Based on the reflection the sensor outputs readings. 
+An I<sup>2</sup>C sensor for detecting particles. Additionaly, the MAX30102 sensor can also be used for measure heart-rate and SpO<sub>2</sub> using special algorithms. These algorithms have limited functionality and are primarily meant for demonstration purposed.
 
 ![Pulse Graph](https://raw.githubusercontent.com/sparkfun/MAX30105_Particle_Sensor_Breakout/master/HeartBeat-1.jpg)
 
-That's my heart beat!
-
-Sensor is capable of detecting pulses but only limited algorithms are provided. It is up to the user to create the algorithms to detect different particles and/or SPO2 and/or do Pulse Detection.
-
-Board requires 3.3V to operate the IR and Red LEDs. 3.5V is recommended to operate the green LED. It has onboard voltage regulation and BSS138 MOSFETs to convert from larger logic voltages (5V) down to the needed 1.8V.
+Instead of using pin connections or requiring soldering, this product provides connection pads for a more kid freindly experience with alligator clips. The design intention of this product is to be used with the [gato:bit (v2)](https://www.sparkfun.com/products/15162), and the [micro:bit development board](https://www.sparkfun.com/products/14208).
 
 Repository Contents
 -------------------
@@ -34,7 +29,7 @@ This product is _**open source**_!
 
 Please review the LICENSE.md file for license information. 
 
-If you have any questions or concerns on licensing, please visit the [SparkFun Forum](https://forum.sparkfun.com/index.php) and post a topic. For more general questions related to our gator boards, please visit this section of the forum: [SparkFun Forums: Educational Products](https://forum.sparkfun.com/viewforum.php?f=155)
+If you have any questions or concerns on licensing, please visit the [SparkFun Forum](https://forum.sparkfun.com/index.php) and post a topic. For more general questions related to our gator boards, please visit this section of the forum: [Gator Products](https://forum.sparkfun.com/viewforum.php?f=162).
 
 Distributed as-is; no warranty is given.
 
